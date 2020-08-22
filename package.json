@@ -1,0 +1,14 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "rock, paper, scissors game",
+  "main": "index.js",
+  "scripts": {
+    "play-game": "node index.js"
+  },
+  "author": "Luke Nowicki",
+  "license": "ISC",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
