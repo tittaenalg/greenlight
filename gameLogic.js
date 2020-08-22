@@ -5,15 +5,15 @@ const gameLogic = (playersMove, computersMove) => {
         || (lowerCasePlayersMove === 'paper' && computersMove === 'rock')
         || (lowerCasePlayersMove === 'scissors' && computersMove === 'paper')
     ) {
-        return 'player'
+        return 'You!'
     } else if (
         (computersMove === 'rock' && lowerCasePlayersMove === 'scissors')
         || (computersMove === 'paper' && lowerCasePlayersMove === 'rock')
         || (computersMove === 'scissors' && lowerCasePlayersMove === 'paper')
     ) {
-        return 'computer'
+        return 'The Computer'
     } else {
-        return 'draw'
+        return 'No one, it\'s a draw'
     }
 }
 
